@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+    </head>
+    <body>
+        <center><h1>Web Page</h1></center>
+        <hr>
+
+        <break>
+        <h3>Name  : Mohan lal</h3>
+        <h3>Email : mohanlal24205@gmail.com</h3>
+        <h3>City  : Tiruppur</h3>
+        <hr>
+         
+    <h1><u><center>About Me</u></h1>
+    
+    <p><pre>
+<b><h3>
+My name is Mohan Lal, and I am studying Artificial Intelligence and Data Science.
+I enjoy learning new technologies and improving my skills every day.
+I have a strong interest in full-stack development and creating useful web applications.
+I like understanding how things work and building projects that solve real problems.
+My goal is to grow as a developer and build smart and helpful applications in the future.
+</h3></b>
+ </pre></p><hr>
+ 
+  
+ <h1><center>Why Do I Want To Learn HTMl ?</h1>
+ <p>
+     <h3><b>1. HTML is the foundation of all websites.<br>
+2. It is easy to learn and beginner-friendly.<br>
+3. It’s essential for becoming a full-stack developer.
+</b></h3>
+ </p>
+ 
+    </body>
+</html>
