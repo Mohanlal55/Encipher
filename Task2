@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tags & Links</title>
+    </head>
+  <body>
+    <h1> <u>HTML USES </u> </h1>
+    
+      <b>HTML is used to create webpages.</b> <br>
+     <strong>It helps write and display text on a website.</strong><br>
+     <i>HTML allows you to add images to a page.</i><br>
+     <em>It lets you add videos and audio.</em>  <br>
+     <mark>You can create links to other pages.</mark>  <br>
+     <small>HTML helps make tables to show data.</small>  <br>
+     <del>It is used to make lists, like bullet points.</del>  <br>
+     Html <sub>helps create headings and titles on a page.</sub> <br>
+     HTML <sup>gives a basic structure to every website.</sup>  <br>
+     <hr>
+     
+    <h1> <u>HEADING</u></h1>
+    
+   <h1> What Is HTML? 
+  HTML is the language used to make websites. It shows text, images, and links on a page. </h2>
+<h1>Why HTML Is Important
+
+HTML is important because every website uses it. Without HTML, websites cannot display content.</h2>
+
+<h3> HTML Tags 
+HTML uses tags like  headings and  paragraphs. Tags organize the page. </h3>
+
+<h4> HTML5 Features
+
+HTML5 can play videos, audio, and create better layouts for websites.</h4>
+
+<h5> HTML in Full-Stack Development
+
+HTML is used by full-stack developers to build the front end—the part users see and interact with. </h5>
+
+<h6>Learning HTML </h6>
+HTML is easy to learn. You can start by making simple pages with text, images, and links.
+
+<p>
+    <b>HTML (HyperText Markup Language) </b> is the most basic building block of the Web. <mark>It defines the meaning and structure of web content</mark>. Other technologies besides HTML are generally 
+    used to describe a web page's appearance/presentation <strong>CSS</strong> or functionality/behavior <strong>JavaScript</strong>
+
+</p>
+ 
+<h1><U>MATH EXPRESSION USING HTML</U></h1>
+ H<sub>2</sub>SO<sub>4</sub> <br>
+ X<suP>2</suP>+ Y<SUP>2</SUP>
+ <hr>
+
+ <h1 onclick="window.location.href='https://www.example.com'">Welcome to My Portfolio</h1>
+    <p onclick="window.location.href='https://www.example.com'">
+        Explore my work and projects here.
+    </p>
+
+    
+    <h2>Link</h2>
+    <a href="https://www.project1.com" target="_blank">Project 1</a><br>
+    <a href="https://www.project2.com" target="_blank">Project 2</a><br>
+    <a href="https://www.project3.com" target="_blank">Project 3</a><br>
+    <a href="https://www.project4.com" target="_blank">Project 4</a><br>
+    <a href="https://www.project5.com" target="_blank">Project 5</a>
+
+    
+    <h2>Link 2</h2>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a><br>
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a><br>
+    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+  </body>
+</html>
