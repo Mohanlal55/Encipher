@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task_3</title>
+</head>
+<body>
+
+
+<h2>Image</h2>
+<figure>
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" width="300">
+    <figcaption> Nature </figcaption>
+</figure>
+
+<hr>
+
+
+<h2>Image 2</h2>
+<img src=https://images.unsplash.com/photo-1507525428034-b723cf961d3e
+ width="300">
+<p><em>Nature-</em> Nature is good</p>
+
+<hr>
+
+
+<h2>List</h2>
+<ol>
+    <li>HTML <mark>list</mark></li>
+    <li>Water<mark> River</mark></li>
+    
+</ol>
+
+<hr>
+
+
+<h2>Image</h2>
+<dl>
+    <dt><b>Image</b></dt>
+    <dd>It is Water.</dd>
+
+    <dt><b>River</b></dt>
+    <dd>It is one source of nature.</dd>
+
+   
+</dl>
+
+<hr>
+
+
+<h2>Click</h2>
+<a href="https://www.google.com">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" width="300">
+</a>
+
+<hr>
+
+
+<h2>Product</h2>
+<div>
+    <img src=https://images.unsplash.com/photo-1501594907352-04cda38ebc29
+ width="80">
+    <p><strong>Product Name:</strong> Frame</p>
+    
+</div>
+
+<hr>
+
+
+<h2>HTML </h2>
+<ol type="I">
+    <li>Learn HTML</li>
+    <li>Basic for wed development</li>
+    <li>It has tag</li>
+</ol>
+
+<hr>
+
+
+<h2>Tags</h2>
+<dl>
+    <dt><b>Nature</b></dt>
+    <dd>Nature gives us fresh air to breathe.</dd>
+
+    <dt><b>Water</b></dt>
+    <dd>Water is important for all living things.</dd>
+
+    <dt><b>River</b></dt>
+    <dd>Rivers and lakes provide clean water.</dd>
+</dl>
+
+<hr>
+
+
+<h2>Custom Image</h2>
+<img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" width="250" height="150">
+
+<hr>
+<h2>Layout</h2>
+<table>
+    <tr>
+        <td>
+            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9" width="200">
+        </td>
+        <td>
+            <p>Nature gives us <b>beauty</b>, <strong>peace.</strong></p>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+
+<h2> Places</h2>
+<ol>
+    <li>
+        Taj Mahal <br>
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523" width="200">
+    </li>
+    
+    <li>
+        Niagara Falls <br>
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" width="200">
+    </li>
+</ol>
+
+<hr>
+
+
+<h2>Nature</h2>
+<dl>
+    <dt><b>Water</b></dt>
+    <dd>It helps all living things survive.</dd>
+
+    <dt><b>Air</b></dt>
+    <dd>It allows humans, animals, and plants to breathe.</dd>
+</dl>
+
+<hr>
+
+
+<h2>Header</h2>
+<header>
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" width="200">
+    &nbsp; | &nbsp;
+    <a href="#">Home</a> |
+    <a href="#">Gallery</a> |
+    <a href="#">Contact</a>
+</header>
+
+<hr>
+
+
+<h2>Image and Paragraph</h2>
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" width="300">
+<p>
+    Water is <b>pure</b>, nature is <strong>beautiful</strong>, and rivers flow <i>peacefully</i>.
+</p>
+
+<hr>
+
+
+<h2>15. Small Gallery</h2>
+<table>
+    <tr>
+        <td>
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" width="200"><br>
+            <b>Nature</b>
+        </td>
+        <td>
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" width="200"><br>
+            <strong>Water</strong>
+        </td>
+        <td>
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" width="200"><br>
+            <i>Forest</i>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
