@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Task_5
+        </title>
+    </head>
+    <body>
+        <h1><u>Personal Information</u></h1>
+        <h3>Name  : B.Mohan lal</h3>
+        <h3>Email : mohanlal24205@gmail.com</h3>
+        <h3>City  : Tiruppur</h3>
+        <hr>
+        <h1><u>About Me</u></h1>
+        <p>My name is <mark>Mohan Lal</mark>, and I am studying <mark>Artificial Intelligence and Data Science</mark>.<br>
+<b>I enjoy learning new technologies and improving my skills every day.</b><br>
+<i>I have a strong interest in full-stack development and creating useful web applications</i>.<br>
+I like understanding how things work and building projects that solve real problems.<br>
+<My goal is to grow as a developer and build smart and helpful applications in the future.
+</p>
+
+<a href="https://google.com">Google</a><br>
+<a href="https://unsplash.com">Unsplash</a><br>
+<a href="https://developer.android.com">Android Dev</a>
+
+
+<hr>
+<h2>Student Marks</h2>
+<table border="1">
+<tr><th>Name</th><th>Marks</th></tr>
+<tr><td>Asha</td><td>85</td></tr>
+<tr><td>Ravi</td><td>72</td></tr>
+<tr><td>Meera</td><td>90</td></tr>
+<tr><td>Akil</td><td>67</td></tr>
+<tr><td>Rani</td><td>76</td></tr>
+</table>
+<h3>Study Routine</h3>
+<ol>
+<li>Wake up</li>
+<li>Read notes</li>
+<li>Class</li>
+</ol>
+
+<img src="https://images.unsplash.com/photo-1513258496099-48168024aec0" width="150">
+<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" width="150"
+
+<h2>Product Prices</h2>
+<table border="1">
+<tr><th>Product</th><th>Price</th></tr>
+<tr><td>Mouse</td><td>₹500</td></tr>
+<tr><td>Keyboard</td><td>₹800</td></tr>
+<tr><td>Speaker</td><td>₹1000</td></tr>
+<tr><td>Webcam</td><td>₹1200</td></tr>
+<tr><td>USB Hub</td><td>₹300</td></tr>
+</table>
+<h3>Gallery</h3>
+<img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=800&q=80" width="100">
+<img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d" width="100">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" width="100">
+<img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546" width="100">
+<h3>Shopping List</h3>
+<ul>
+<li>Mouse</li>
+<li>Keyboard</li>
+<li>Speaker</li>
+</ul>
+<hr>
+<h2>Timetable</h2>
+<table border="1">
+<tr><th>Time</th><th>Mon</th><th>Tue</th></tr>
+<tr><td>9-10</td><td rowspan="2">Math</td><td>Science</td></tr>
+<tr><td>10-11</td><td>English</td></tr>
+</table>
+<h3>Subjects</h3>
+<ul>
+<li>Math
+  <ul><li>Algebra</li><li>Geometry</li></ul>
+</li>
+<li>Science
+  <ul><li>Physics</li><li>Chemistry</li></ul>
+</li>
+</ul>
+<a href="#top">Go Top</a>
+<hr>
+<h1>H1</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>H6</h6>
+<p><b>HTML is easy to learn.</b></p>
+<p><i>You can build webpages.</i></p>
+<p><u>Practice makes you better.</u></p>
+<p>H<sup>2</sup>O, CO<sub>2</sub>, X<sup>3</sup>, A<sub>1</sub>, 10<sup>2</sup></p>
+<hr>
+<h2>Glossary</h2>
+<dl>
+<dt>HTML</dt><dd>Web structure</dd>
+<dt>CSS</dt><dd>Styles</dd>
+<dt>JS</dt><dd>Logic</dd>
+<dt>API</dt><dd>Service</dd>
+<dt>DOM</dt><dd>Page model</dd>
+</dl>
+<ul>
+<li>Basics
+  <ul><li>HTML</li><li>CSS</li></ul>
+</li>
+</ul>
+<a href="https://unsplash.com">Unsplash</a><br>
+<a href="https://mdn.dev">MDN</a><br>
+<a href="https://google.com">Google</a>
+
+<a href="home.html">Home</a> | <a href="about.html">About</a>
+<hr>
+<h1>Home</h1>
+<img src="https://images.unsplash.com/photo-1503264116251-35a269479413" width="150">
+<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" width="150">
+
+
+<p>I am a student.</p>
+<h3>Skills</h3>
+<ul><li>HTML</li><li>CSS</li><li>JS</li></ul>
+<table border="1">
+<tr><th>Project</th><th>Info</th></tr>
+<tr><td>Site</td><td>Simple HTML page</td></tr>
+</table>
+<p>Email: <a href="mailto:test@mail.com">Mail</a></p>
+<p>Phone: <a href="tel:9999999999">Call</a></p>
+
+<h2>Register</h2>
+<form>
+<label>Name</label><input type="text"><br>
+<label>Roll</label><input type="text"><br>
+</form>
+<h2>Job Form</h2>
+<form>
+<label>Name</label><input type="text"><br>
+<label>Post</label><input type="text"><br>
+</form>
+<h2>Feedback</h2>
+<form>
+<label>Message</label><input type="text"><br>
+</form>
+<h2>Login</h2>
+<form>
+<label>Email</label><input type="email"><br>
+<label>Password</label><input type="password"><br>
+</form>
+<h2>Why learn HTML</h2>
+<p>HTML is easy.</p>
+<p>HTML builds webpages.</p>
+<p>HTML is the start of web dev.</p>
+<img src=" https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80
+" width="120">
+<img src=" https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80
+" width="120">
+<img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80
+" width="120">
+<table border="1">
+<tr><th>Goal</th><th>Date</th></tr>
+<tr><td>Learn HTML</td><td>2026</td></tr>
+</table>
+<ul>
+<li>Morning
+  <ul><li>Study</li></ul>
+</li>
+</ul>
+
+
+</body>
+</html>
