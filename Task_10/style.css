@@ -1,0 +1,36 @@
+
+.c1 { color: red; }
+.c2 { color: green; }
+.c3 { color: blue; }
+.c4 { color: orange; }
+.c5 { color: purple; }
+
+
+#a { 
+    text-decoration: underline;
+ }
+#b { 
+    text-decoration: underline;
+ }
+#c{ 
+    font-style: italic;
+ }
+
+
+#a1{ 
+    border: 2px solid rgba(223, 133, 133, 0.011);
+    background-color: lawngreen;
+ }
+input[type="email"] { 
+    border: 2px solid rgb(0, 0, 214);
+ }
+ input[type="number"] { 
+    border: 2px solid rgb(185, 0, 214);
+    border-width: 1cap;
+ }
+
+
+h1, p {
+  font-family: Arial;
+  color: red;
+}
