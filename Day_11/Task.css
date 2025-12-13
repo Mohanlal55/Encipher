@@ -1,0 +1,44 @@
+#a{
+    background-color: aqua;
+    color: red;
+}
+.box {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: 10pc;
+}
+.block {
+  display: block;
+  border: 1px solid blue;
+  width: 10cm;
+}
+.inline {
+  display: inline;
+  border: 1px solid green;
+  
+}
+.inline-block {
+  display: inline-block;
+  width: 100px;
+  border: 1px solid red;
+}
+
+.none {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+.inline-to-block {
+  display: block;
+  border: 1px solid purple;
+}
+
+.block-to-inline {
+  display: inline;
+  border: 1px solid orange;
+}
