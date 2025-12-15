@@ -1,0 +1,51 @@
+h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+
+.s  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#hr {
+    margin: -17px 0;
+}
+
+.s1 div{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 2px;
+}
+span{
+    color :blue;
+}
+#p{
+    text-decoration: underline;
+}
+.div{
+    display: flex;
+}
+#a{
+    margin: -1px;
+}
+
+aside {
+    position: fixed;        
+    top: 80px;             
+    right: 20px;            
+    width: 280px;
+
+    padding: 15px;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 14px;
+}
+body {
+    margin-right: 325px; 
+}
