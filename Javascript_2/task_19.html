@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <script>
+        let a=prompt("Enter Menu");
+        let n1 = Number(prompt("Enter Number"));
+        let n2 = Number(prompt("Enter Number"));
+
+        const add = (a,b) => n1+n2;
+        const sub = (a,b) => n1-n2;
+        const multiply = (a,b) => n1*n2;
+        const divide = (a,b) => n1/n2;
+
+        switch(a){
+            case "a":
+            alert(add(n1,n2));
+            break;
+            case "b":
+            alert(sub(n1,n2));
+            break;
+            case "c":
+            alert(multiply(n1,n2));
+            break;
+            case "d":
+            alert(divide(n1,n2));
+            break;
+            default:
+                alert("Invalid");
+        }
+    </script>
+</body>
+</html>
