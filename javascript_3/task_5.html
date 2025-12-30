@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <script>
+        let t = prompt("Enter type");
+        let n = Number(prompt("Enter Number"));
+        if(t=="celsius"){
+           let a= cel(n);
+           alert(a);
+        }
+        else{
+           let b= fah(n);
+           alert(b);
+        }
+      function cel(n){
+           let C =(9/5)*n+32;
+           return C;
+      }
+      function fah(n){
+        let F =(5/9)*(n-32);
+        return F;
+      }
+    </script>
+</body>
+</html>
