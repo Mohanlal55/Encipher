@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <script>
+    let a = prompt("Enter sentence");
+    let b = a.split(" ");
+    let c = [];
+     for (let word of b) {
+     if (!c.includes(word)) {
+       c.push(word);
+     }
+    }
+    alert(c.join(" "));
+</script>
+
+</body>
+</html>

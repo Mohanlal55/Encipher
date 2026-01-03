@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <script>
+    let a = prompt("Enter password");
+    let b = false;
+     c = false;
+    for (let d of a) {
+     if (d >= 'A' && d <= 'Z') 
+     b = true;
+    if (d >= '0' && d <= '9') 
+     c = true;
+    }
+    if (a.length >= 10 && b && c) {
+    alert("Strong Password");
+    } else {
+    alert("Weak Password");
+    }
+</script>
+
+</body>
+</html>
