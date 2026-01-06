@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <select id="color" onchange="changeColor()">
+  <option value="red">Light Blue</option>
+  <option value="lightgreen">Light Green</option>
+  <option value="yellow">Light Pink</option>
+</select>
+
+<script>
+function changeColor() {
+  var c = document.getElementById("color").value;
+  document.body.style.backgroundColor = c;
+}
+</script>
+
+</body>
+</html>

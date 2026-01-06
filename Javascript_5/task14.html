@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <select onchange="showValue(this)">
+    <option value="A">Apple</option>
+    <option value="B">Banana</option>
+    <option value="c">Mango</option>
+</select>
+
+<p id="a"></p>
+
+<script>
+function showValue(select) {
+    document.getElementById("a").innerText =
+        "Selected: " + select.value;
+}
+</script>
+</body>
+</html>

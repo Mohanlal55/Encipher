@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Enter name">
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+function validateForm() {
+    let value = document.getElementById("name").value;
+
+    if (value === "") {
+        alert("Input cannot empty");
+        return false;
+    }
+    alert("Form submitted");
+    return true;
+}
+</script>
+</body>
+</html>
