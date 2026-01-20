@@ -88,17 +88,11 @@
                 country: Country
             };
 
-           
             users.push(a);
-
-          
-            show();
-
-            clear();
-
-          
             
-        }
+            show();
+            clear(); 
+            }
 
         function show() {
             let rows = "";
@@ -118,10 +112,6 @@
 
             document.getElementById("t").innerHTML = rows;
         }
-
-         
-
-
         function clear() {
             document.getElementById("name").value = "";
             document.getElementById("email").value = "";
@@ -131,15 +121,9 @@
 
             let g = document.querySelector('input[name="gender"]:checked');
             if (g) g.checked = false;
-
-
-
         }
-
-       
-
-
-    </script>
+</script>
 
 </body>
 </html>
+
