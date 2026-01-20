@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body style="
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+">
+
+    
+    <form style="
+        border: 1px solid rgb(123, 175, 190);
+        width: 250px;
+        padding: 50px;
+        background: rgb(123, 175, 190);
+    ">
+
+        <label>Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <label>Date:</label>
+        <input type="date" id="date"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        <label>Country:</label>
+        <input type="text" id="Country"><br><br>
+
+        <button type="button" onclick="input()">Submit</button>
+    </form>
+
+    
+    <table border="1" cellpadding="6">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Date</th>
+                <th>Gender</th>
+                <th>Country</th>
+            </tr>
+
+        <tbody id="t"></tbody>
+    </table>
+
+    <script>
+        
+        let users = [];
+
+        function input() {
+            let Name = document.getElementById("name").value;
+            let Email = document.getElementById("email").value;
+            let Password = document.getElementById("password").value;
+            let Date = document.getElementById("date").value;
+            let Country = document.getElementById("Country").value;
+            let Gender = document.querySelector('input[name="gender"]:checked');
+
+            if (
+                Name === "" || Email === "" ||Password === "" ||Date === "" || Country === "" || Gender === null
+            ) {
+                alert("Enter inputs");
+                return;
+            }
+
+           
+            let a = {
+                name: Name,
+                email: Email,
+                password: Password,
+                date: Date,
+                gender: Gender.value,
+                country: Country
+            };
+
+           
+            users.push(a);
+
+          
+            show();
+
+            clear();
+
+          
+            
+        }
+
+        function show() {
+            let rows = "";
+
+            for (let i = 0; i < users.length; i++) {
+                rows += `
+                    <tr>
+                        <td>${users[i].name}</td>
+                        <td>${users[i].email}</td>
+                        <td>${users[i].password}</td>
+                        <td>${users[i].date}</td>
+                        <td>${users[i].gender}</td>
+                        <td>${users[i].country}</td>
+                    </tr>
+                `;
+            }
+
+            document.getElementById("t").innerHTML = rows;
+        }
+
+         
+
+
+        function clear() {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("password").value = "";
+            document.getElementById("date").value = "";
+            document.getElementById("Country").value = "";
+
+            let g = document.querySelector('input[name="gender"]:checked');
+            if (g) g.checked = false;
+
+
+
+        }
+
+       
+
+
+    </script>
+
+</body>
+</html>
